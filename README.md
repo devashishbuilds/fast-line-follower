@@ -162,9 +162,9 @@ Install via Arduino Library Manager:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
+   git clone https://github.com/devashishbuilds/fast-line-follower.git
    ```
-2. Open `line_follower.ino` in the Arduino IDE.
+2. Open `new_bot.ino` in the Arduino IDE.
 3. Install the QTRSensors library (see above).
 4. Select your board and COM port under `Tools`.
 5. Upload.
@@ -197,7 +197,7 @@ qtr.setSensorPins((const uint8_t[]){8, 7, 6, 5, 4, 3}, SensorCount);
 
 ```
 .
-├── line_follower.ino   # Main Arduino sketch
+├── new_bot.ino   # Main Arduino sketch
 └── README.md
 ```
 
